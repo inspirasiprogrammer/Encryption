@@ -13,6 +13,19 @@ So how do I do it?
 
 <b>Regasm.exe /codebase Encryption.dll</b>
 
+You now can use the DLL like any other COM based file.
+
+A VBScript example
+====================
+dim encryption
+dim text
+set encryption = createobject("Encryption.Rijndael")
+
+text = encryption.Encrypt("My secret text", "MySecretSaltKey")
+msgbox text
+
+msgbox encryption.Decrypt(text, "MySecretSaltKey")
+
 License
 =======
 
