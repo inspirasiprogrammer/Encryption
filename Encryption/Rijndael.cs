@@ -36,7 +36,7 @@ namespace Encryption
 
     [Guid("48C93B07-0AB6-4412-B4F6-0F9E088E5533")]
     [ComVisible(true)]
-    public class Rijndael
+    public class Rijndael : IRijndael
     {
         #region Consts
         /// <summary>
