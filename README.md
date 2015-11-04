@@ -15,7 +15,7 @@ So how do I do it?
 
 You now can use the DLL like any other COM based file.
 
-A VBScript example
+VBScript example
 ====================
 dim encryption
 dim text
