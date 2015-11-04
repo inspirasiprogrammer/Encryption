@@ -34,6 +34,8 @@ namespace Encryption
     }
     #endregion
 
+    [ClassInterface(ClassInterfaceType.None)]
+    [ProgId("Encryption.Rijndael")]
     [Guid("48C93B07-0AB6-4412-B4F6-0F9E088E5533")]
     [ComVisible(true)]
     public class Rijndael : IRijndael
