@@ -1,7 +1,7 @@
 Rijndael managed encryption
 =================
 
-This is an example project to show you how you can use .NET's Rijndael managed ecryption from a script based language that can work with COM objects
+This is an example project to show you how you can use .NET's Rijndael managed encryption from a script based language that can work with COM objects
 
 So how do I do it?
 ====================
