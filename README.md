@@ -24,7 +24,7 @@ set encryption = createobject("Encryption.Rijndael")
 text = encryption.Encrypt("My secret text", "MySecretSaltKey")
 msgbox text
 msgbox encryption.Decrypt(text, "MySecretSaltKey")
-
+ 
 License
 =======
 
