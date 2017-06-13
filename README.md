@@ -17,6 +17,7 @@ You now can use the DLL like any other COM based file.
 
 VBScript example
 ====================
+``
 dim encryption
 
 dim text
@@ -27,8 +28,8 @@ text = encryption.Encrypt("My secret text", "MySecretSaltKey")
 
 msgbox text
 
-msgbox encryption.Decrypt(text, "MySecretSaltKey")
- 
+msgbox encryption.Decrypt(text, "MySecretSaltKey")``
+
 License
 =======
 
